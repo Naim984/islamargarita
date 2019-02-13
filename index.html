@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+        /* Make the image fully responsive */
+      body { width: 100%;
+      }
+  .carousel-inner img {
+      text-align: center;
+      width: 100%;
+    }
+      header { text-align: center;
+          width: 100%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 8em;
+      }    
+      
+      h1 { text-align: center;
+          
+
+      }    
+
+  </style>
+</head>
+<body>
+<header>
+<div class="row justify-content-center" data-ride="carousel">
+    <div class="col-sm-8">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/portada1.jpg" alt="Los Angeles" width="550" height="230">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/portada2.jpg" alt="Chicago" width="550" height="230">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/portada3.jpg" alt="New York" width="550" height="230">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+   </div>     
+</div>
+    
+    </header><br><br><br><br><br>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="margarita.html"></a>
+        <img src="imagenes/Venezuela.svg" width="50" height="50" class="d-inline-block align-top" alt="Isla de Margarita">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="margarita.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#signup">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="registro.html">Registro</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+        </div>
+      </li>
+    </ul>
+    <div class="d-flex flex-row justify-content-center">
+      <a href="https://www.facebook.com/search/top/?q=Isla+Margarita" class="btn btn-outline-dark mr-2">F</a>
+      <a href="https://www.youtube.com/watch?v=dSY-lz9LdDM" class="btn btn-outline-danger">Y</a>
+  </div>
+
+     </nav>
+       
+<!-- fin de navegacion-->
+<h1> Isla De Margarita </h1>
+</div>
+</nav>
+<!-- cards-->
+ <section class="container mt-4 pt-4">
+  <div class="card-deck">
+  <div class="card">
+    <a href=""data-toggle="modal" data-target="#exampleModal"><img class="card-img-top img-fluid" src="imagenes/destinos.jpg" alt="Card image cap"></a>
+    <div class="card-body">
+      <h5 class="card-title">Bella Isla del Caribe</h5>
+      <p class="card-text">Como ves, los deportes acuáticos: el surf, el submarinismo, windsurf y el kitesurf son algunas de las mejores cosas que hacer en Isla Margarita.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Ver mas información
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Servicios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Bella,hermosa e imponente isla de margarita,la perla del Caribe. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+       </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+     
+  <div class="card">
+    <a href=""data-toggle="modal" data-target="#exampleModal-2"><img class="card-img-top img-fluid" src="imagenes/tours.jpg" alt="Card image cap"></a>
+    <div class="card-body">
+      <h5 class="card-title">Aquí podrás comprar joyas y todo tipo de artículos artesanales.</h5>
+      <p class="card-text">Margarita tiene una gran variedad de playas,turismo,hay para todos los gustos.</p>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-2">
+  Ver mas información
+</button>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel-2" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel-2">Servicios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Bella. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="card">
+    <img class="card-img-top img-fluid" src="imagenes/sunsol.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Qué Ver?</h5>
+      <p class="card-text">Si tu pregunta es
+        qué ver en Isla Margarita la respuesta es, depende. Depende de si prefieres el turismo de playa o mejor cultural. Las playas son uno de los principales atractivos turísticos que hay en Isla Margarita.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-3">
+  Ver mas información
+</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel-3" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel-3">Servicios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Imponente
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+       </div>
+    </div>
+  </div>
+</div>
+
+  
+ </section>
+ <!-- fin cards-->
+    
+ <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">hello@yourdomain.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (555) 902-8832</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+<!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+ <script src="js/jquery.js"></script>
